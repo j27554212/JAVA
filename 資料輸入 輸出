@@ -16,7 +16,7 @@ public class CH2 {
      String str3 ;
      Scanner sc = new Scanner(System.in); //無回傳值  //new Scanner()的Scanner為建構子，Scanner sc的 Scanner為類別
 
-     str2 = sc.nextLine();
+     str2 = sc.nextLine();  //換行
      System.out.print(str1);
      System.out.println(str2);
 
