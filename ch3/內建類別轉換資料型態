@@ -1,6 +1,5 @@
 package myJava.ch3;
 import java.lang.*;
-
 public class ch3        //主類別
 {
     public static void main(String args[])
@@ -10,7 +9,6 @@ public class ch3        //主類別
        float d=3.5f;
        double e=4.8d;  //相當於 double d=4.8;
        String s1,s2;
-
        s1 = String.valueOf(a+b)+String.valueOf(a)+String.valueOf(b);
        s2 = Float.toString(d)+Double.toString(e);
        System.out.println("s1 = " + s1);
@@ -21,7 +19,6 @@ public class ch3        //主類別
 package myJava.ch3;
 import java.lang.*;
 import java.util.Scanner;
-
 public class ch3        //主類別
 {
     public static void main(String args[])
@@ -29,7 +26,6 @@ public class ch3        //主類別
     	Scanner keyboardInput = new Scanner(System.in);
            String str1;
            double x;
-
            System.out.print(" 欲求x 的3 次方, 請輸入x:");
            str1 = keyboardInput.nextLine();
            x = Double.parseDouble(str1);
