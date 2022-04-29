@@ -1,0 +1,8 @@
+------------------------  
+String Ary[] =new String[] { new String("abc") new String("hello") };    
+==>  String Ary[] new String[]----類別  (辨別方式=小括號)  
+==>  new String("abc") new String("hello") -----建構子 [辨別方式=中括號]
+------------------------  
+三維陣列
+[一維][二維][三維]
+[存二維的記憶體位置][存三維的記憶體位置][存放資料的記憶體位置]
