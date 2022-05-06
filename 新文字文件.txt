@@ -1,0 +1,22 @@
+import java.util.*;
+02　	
+03　	public class Main {
+04　	    private static int WinPrize(String win, String number, int[] bonusList) {
+05	
+你的程式碼
+06　	    }
+07　	    
+08　	    public static void main(String[] args) {
+09　	        Scanner sc = new Scanner(System.in); //輸入發票號碼
+10　	        
+11　	        int[] bonusList = new int[] {0, 0, 0, 200, 1000, 4000, 10000, 40000, 200000};  //第一個0為都沒中 第二個0為1個中 類推
+12　	        
+13　	        String win = sc.next();  //相同的號碼數量
+14　	        int bonus = 0;           
+15　	        int num = sc.nextInt();  //輸入常數
+16　	        while (num-- > 0) {      //當num-- >0 則bonus+WinPrize 
+17　	          bonus += WinPrize(win, sc.next(), bonusList); //bounslist額外清單
+18　	        }
+19　	        System.out.println(bonus);  //顯示bonus
+20　	    }
+21　	}
